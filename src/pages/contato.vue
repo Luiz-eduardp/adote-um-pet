@@ -7,7 +7,7 @@
 
         </q-card-section>
 
-        <form name="fileForm" data-netlify="true">
+        <!-- <form name="fileForm" data-netlify="true">
             <p>
                 <label>
                     <span>Name:</span>
@@ -21,7 +21,7 @@
                 </label>
             </p>
             <button>Submit</button>
-        </form>
+        </form> -->
         <p class="result"></p>
     </q-card>
 
