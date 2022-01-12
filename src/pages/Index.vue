@@ -13,7 +13,7 @@
         <q-card-section class="bg-primary text-white">
             <q-img :src="pet.img" style="border-radius: 25px;">
                 <div class="absolute-bottom text-subtitle2 text-center">
-                    Nome: {{ pet.nome }} <br />
+                    {{ pet.nome }} <br />
                     Sexo: {{ pet.sexo }}<br />
                     Espécie: {{ pet.especie }}<br />
                     Idade: {{ pet.idade }}<br />
