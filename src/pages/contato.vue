@@ -1,42 +1,30 @@
 <template>
 <q-page padding>
- <q-card class="my-card">
-      <q-card-section>
-      Envie os dados do bichinho que quer doar por
-        <a href="mailto:luizzeduardp@gmail.com">email</a>
+    <q-card class="my-card">
+        <q-card-section>
+            Envie os dados do bichinho que quer doar por
+            <a href="mailto:luizzeduardp@gmail.com">email</a>
 
-      </q-card-section>
+        </q-card-section>
 
-      <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-
- </q-card>
-    
+        <form name="fileForm" data-netlify="true">
+            <p>
+                <label>
+                    <span>Name:</span>
+                    <input name="name" type="text" />
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>Add file:</span>
+                    <input name="file" type="file" />
+                </label>
+            </p>
+            <button>Submit</button>
+        </form>
+        <p class="result"></p>
+    </q-card>
 
 </q-page>
 </template>
 
-<script>
-
-export default {
-
-}
-</script>
