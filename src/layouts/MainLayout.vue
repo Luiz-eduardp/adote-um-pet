@@ -14,6 +14,7 @@
       <q-tabs align="left">
         <q-route-tab to="/" label="Pets" />
         <q-route-tab to="/contato" label="Contato" />
+        <q-route-tab to="/changelog" label="Novidades" />
 
       </q-tabs>
     </q-header>

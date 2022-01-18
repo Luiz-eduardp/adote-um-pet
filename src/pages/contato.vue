@@ -2,8 +2,29 @@
 <q-page padding>
     <q-card class="my-card">
         <q-card-section>
-            Envie os dados do bichinho que quer doar por
-            <a href="mailto:luizzeduardp@gmail.com">email</a>
+
+<ul>
+<li>
+  Nome: Se houver
+</li>
+<li>
+  Idade: Se Souber
+</li>
+<li>
+  Sexo: Macho ou Fêmea
+</li>
+<li>
+  Espécie: Cachorro, Gato etc.
+</li>
+<li>
+  Localizção: Cidade e Bairro
+</li>
+<li>
+  Imagem: Apenas uma imagem
+</li>
+
+</ul>
+          <q-btn class="bg-primary "  href="https://chat.whatsapp.com/KMOKkpSwwj0JojLytrgVJD">   Envie os dados do bichinho que quer doar no nosso Grupo de Whatsapp</q-btn>
 
         </q-card-section>
 

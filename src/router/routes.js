@@ -2,19 +2,30 @@ const routes = [{
         path: '/',
         component: () =>
             import ('layouts/MainLayout.vue'),
-        children: [
-            { path: '', component: () =>
-                    import ('pages/Index.vue') }
-        ]
+        children: [{
+            path: '',
+            component: () =>
+                import ('pages/Index.vue')
+        }]
     },
     {
         path: '/contato',
         component: () =>
             import ('layouts/MainLayout.vue'),
-        children: [
-            { path: '', component: () =>
-                    import ('pages/contato.vue') }
-        ]
+        children: [{
+            path: '',
+            component: () =>
+                import ('pages/contato.vue')
+        }]
+    }, {
+        path: '/changelog',
+        component: () =>
+            import ('layouts/MainLayout.vue'),
+        children: [{
+            path: '',
+            component: () =>
+                import ('pages/changelog.vue')
+        }]
     },
 
     // Always leave this as last one,
