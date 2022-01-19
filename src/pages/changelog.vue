@@ -2,6 +2,26 @@
   <q-page padding>
     <q-card class="my-card">
         <q-card-section>
+
+        <ul>
+            <p>
+              <b>
+                 Versão Beta-1.0
+                 </b>
+
+            </p>
+            <li>
+              Botão Scroll to top
+              </li>
+                <li>
+             Novas informações para cada pet
+              </li>
+                <li>
+               Preparação para sistema de filtros de pesquisa
+              </li>
+          </ul>
+
+
           <ul>
             <p>
               <b>
