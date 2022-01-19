@@ -18,13 +18,13 @@ const routes = [{
                 import ('pages/contato.vue')
         }]
     }, {
-        path: '/changelog',
+        path: '/info',
         component: () =>
             import ('layouts/MainLayout.vue'),
         children: [{
             path: '',
             component: () =>
-                import ('pages/changelog.vue')
+                import ('pages/info.vue')
         }]
     },
 
